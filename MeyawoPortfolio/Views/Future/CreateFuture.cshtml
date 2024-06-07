@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "CreateFuture";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>Öne Çıkan Ekle</h2>
+
+<form method="post">
+
+    <label>Öne Çıkan Başlığı</label>
+    <input type="text" class="table table-bordered" name="Header" />
+    <br />
+    <label>Öne Çıkan Adı</label>
+    <input type="text" class="table table-bordered" name="NameSurname" />
+    <br /><label>Öne Çıkan Ünvanı</label>
+    <input type="text" class="table table-bordered" name="Title" />
+    <br />
+
+    <button class="btn btn-info">Öne Çıkan Kaydet</button>
+</form>
